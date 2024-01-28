@@ -1,6 +1,6 @@
-// 注: process.env.XX是Vercel的环境变量，配置方式见：https://docs.tangly1024.com/article/how-to-config-notion-next#c4768010ae7d44609b744e79e2f9959a
+// 注: process.env.XX是Vercel的环境变量，配置方式见：https://cuboid-flannel-f3c.notion.site/09f0218d3dbc415a904e6fcf148c76c3?v=e76cdf2dc7b0448fa8f484cb6726d8c5&pvs=4
 const BLOG = {
-  // Important page_id！！！Duplicate Template from  https://www.notion.so/tanghh/02ab3b8678004aa69e9e415905ef32a5
+  // Important page_id！！！Duplicate Template from  https://cuboid-flannel-f3c.notion.site/09f0218d3dbc415a904e6fcf148c76c3
   NOTION_PAGE_ID:
         process.env.NOTION_PAGE_ID || '02ab3b8678004aa69e9e415905ef32a5',
   PSEUDO_STATIC: process.env.NEXT_PUBLIC_PSEUDO_STATIC || false, // 伪静态路径，开启后所有文章URL都以 .html 结尾。
@@ -19,7 +19,7 @@ const BLOG = {
 
   AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || 'NotionNext', // 您的昵称 例如 quanweidu
   BIO: process.env.NEXT_PUBLIC_BIO || '青云智库🍚', // 作者简介
-  LINK: process.env.NEXT_PUBLIC_LINK || 'https://tangly1024.com', // 网站地址
+  LINK: process.env.NEXT_PUBLIC_LINK || 'https://linktr.ee/quanweidu', // 网站地址
   KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || 'Notion, 博客', // 网站关键词 英文逗号隔开
 
   // 社交链接，不需要可留空白，例如 CONTACT_WEIBO:''
